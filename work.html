@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Calviño & Ladanaj - arquitectos</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+	<!----- viewport para apple device-width = ancho pantalla initial-scale es que inicia sin ningún zoom --> 
+    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
+	<!----- icono para apple y safari --> 
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/newmaterial/CyL.ico">
+    <!-- Load Require CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	    <!-- iconos  -->
+    <link href="assets/css/boxicon.min.css" rel="stylesheet">
+	    <!-- tipo de letra -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+		<!-- carga CSS -->
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow mt-3 p-0">
+	
+        <!--navbar-expand-lg = envoltorio para que el navbar se estire en lg
+        navbar-light = texto negro de la letra
+        bg-white = fondo de color blanco
+        -->
+    
+            <div class="container d-flex justify-content-between align-items-center">
+            
+                <a class="navbar-brand h1 d-flex mt-3" href="index.html">
+                <!--navbar-brand = clase se utiliza para resaltar la marca o logotipo de su página-->	
+                    <img src ="assets/img/newmaterial/Logo.jpg" style="height: 50px; width: auto; border-radius: 50%; ">
+                    <!--	bx bx-buildings = icono del logo de la web: 
+                    http://www.unisvg.com/icon-sets/bx/bx-buildings.html 
+                    https://boxicons.com/
+                    -->
+    
+               <p class="ps-3 pt-1"><span class="text-dark h4">CALVIÑO</span><span class="fw-light"> & </span><span class="text-dark h4">LADANAJ</span><br><span class="text-info d-flex justify-content-center h5">arquitectos</span></p></a>
+                
+                <!--	boton de hamburguesa --> 
+                    <button class="navbar-toggler border-0 bg-light" 
+                    type="button" data-bs-toggle="collapse" 
+                    data-bs-target="#navbar-toggler-success" 
+                    aria-controls="navbarSupportedContent" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                    </span>
+                </button>
+                <!------------------------------------------- Opciones del Menu		-->
+                <div class="align-self-center collapse navbar-collapse flex-fill d-lg-flex justify-content-lg-between bg-light" 
+                id="navbar-toggler-success">
+                
+                <!-------collapse navbar-collapse= para agrupar y ocultar el contenido de la barra de navegación 
+                por un punto de interrupción principal.
+                flex-fill = obliga a que todos los elementos tengan el mismo tamaño de ancho
+                d-lg-flex = utilidades para crear un contenedor flexbox y transforme los elementos secundarios 
+                directos en elementos flexibles
+                -->
+                    <div class="flex-fill mx-xl-5">
+                        <!--	  mx=para clases que establecen tanto *-lefty*-right-->
+                        <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
+                        <!--   .navbar-nav para una navegación ligera y de altura completa 
+                        (incluida la compatibilidad con menús desplegables).-->
+                            <li class="nav-item">
+                                <a class="nav-link btn-outline-info px-2" href="index.html">Home</a>
+                            <!-- px = padding y mx es el margin 
+                            rounded-pill =genera ese boton con bordes redondeados rounded-circle-->	
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn-outline-info px-2" href="about.html">El Estudio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn-outline-info px-2" href="work.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn-outline-info px-2" href="pricing.html">Honorarios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn-outline-info px-2" href="contact.html">Contáctenos</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+    <!---------------------------------------------------------Fin de las opciones del menu
+    ------------------------------------------------------------ Inicio de los iconos del menu-->
+                    <div class="navbar align-self-center d-flex">
+                        <a class="nav-link" href="config.html"><i class='bx bx-cog bx-sm bx-spin-hover text-dark'></i></a>
+                        <a class="nav-link" href="user.html"><i class='bx bx-user-circle bx-sm bx-tada-hover text-dark'></i></a>
+                        <!--	https://iconify.design/icon-sets/bx/-->
+                    </div>
+                </div>
+            </div>
+        </nav>
+    <!-- Close Header -->
+
+
+    <!-- Start Banner Hero -->
+    <div id="work_banner" class="banner-wrapper bg-light w-100 py-4">
+        <div class="banner-vertical-center-work container text-light d-flex justify-content-center align-items-center py-5 p-0">
+            <div class="banner-content col-lg-6 col-12 m-lg-auto text-center">
+                <h1 class="banner-heading display-3 h1 pt-3 pb-3 bg-info light-300">Nuestro Trabajo</h1>
+                <br><br><br><br>
+                <a href="contact.html"><button type="submit" class="btn rounded-pill btn-info text-light px-3 mx-2 light-300">Consultas</button></a>
+                <a href="about.html"><button type="submit" class="btn rounded-pill btn-info text-light px-3 mx-2 light-300">Quienes Somos</button></a>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- End Banner Hero -->
+
+    <!-- Start Our Work -->
+    <section class="container py-5">
+        <div class="row justify-content-center my-5">
+            <div class="filter-btns shadow-md rounded-pill text-center col-auto">
+                <a class="filter-btn btn rounded-pill btn-outline-info border-0 m-md-2 px-md-4 active" data-filter=".project" href="#">Todos</a>
+                <a class="filter-btn btn rounded-pill btn-outline-info border-0 m-md-2 px-md-4" data-filter=".obn" href="#">Obra Nueva</a>
+                <a class="filter-btn btn rounded-pill btn-outline-info border-0 m-md-2 px-md-4" data-filter=".refor" href="#">Reformas</a>
+                <a class="filter-btn btn rounded-pill btn-outline-info border-0 m-md-2 px-md-4" data-filter=".desa" href="#">Desarrollos</a>
+                <a class="filter-btn btn rounded-pill btn-outline-info border-0 m-md-2 px-md-4" data-filter=".3d" href="#">Imágenes 3D</a>
+            </div>
+        </div>
+
+        <div class="row projects gx-lg-5">
+            <a href="#" class="col-sm-6 col-lg-4 text-decoration-none project refor">
+                <div class="service-work overflow-hidden card mb-5 mx-5 m-sm-0">
+                    <img class="card-img-top" src="./assets/img/newmaterial/roblesw.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title regular-400 text-dark">Robles Casas & Campos</h5>
+                        <p class="card-text light-300 text-dark">
+                            Reforma y puesta en valor de chalet patrimonial, con refuncionalización para nuevo uso y actualización a los nuevos estandares.
+                        </p>
+                        <span class="text-decoration-none text-info light-300">
+                              Ir arriba <i class='bx bxs-chevrons-up ms-1'></i>
+                          </span>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="col-sm-6 col-lg-4 text-decoration-none project refor obn">
+                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+                    <img class="card-img-top" src="./assets/img/newmaterial/fantiw.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title regular-400 text-dark">Oficinas Centrales Fanti Alarmas</h5>
+                        <p class="card-text light-300 text-dark">
+                            Reconversión y transformación de edificio abandonado de cocheras en las oficinas centrales del centro de monitoreo y seguridad.
+                        </p>
+                        <span class="text-decoration-none text-info light-300">
+                            Ir arriba <i class='bx bxs-chevrons-up ms-1'></i>
+                          </span>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="col-sm-6 col-lg-4 text-decoration-none project obn">
+                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+                    <img class="card-img-top" src="./assets/img/newmaterial/epaw.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title regular-400 text-dark">Casa EPA!</h5>
+                        <p class="card-text light-300 text-dark">
+                            Vivienda unifamiliar entre medianeras en barrio Constitución, Mar del Plata.
+                            <br>
+                            <br>                            
+                        </p>
+                        <span class="text-decoration-none text-info light-300">
+                            Ir arriba <i class='bx bxs-chevrons-up ms-1'></i>
+                          </span>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="col-sm-6 col-lg-4 text-decoration-none project obn">
+                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+                    <img class="card-img-top" src="./assets/img/newmaterial/sasw.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title regular-400 text-dark">Casa SAS!</h5>
+                        <p class="card-text light-300 text-dark">
+                            Vivienda unifamiliar de perímetro libre en barrio parque Pinares de Santa Clara.
+                            <br>
+                            <br>
+                        </p>
+                        <span class="text-decoration-none text-info light-300">
+                            Ir arriba <i class='bx bxs-chevrons-up ms-1'></i>
+                          </span>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="col-sm-6 col-lg-4 text-decoration-none project obn desa">
+                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+                    <img class="card-img-top" src="./assets/img/newmaterial/rootsw.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title regular-400 text-dark">Roots Mariani</h5>
+                        <p class="card-text light-300 text-dark">
+                            Edificio Multifamiliar a metros del mar. Unidades de 1, 2 y 3 ambientes.
+                            <br>
+                            <br>
+                        </p>
+                        <span class="text-decoration-none text-info light-300">
+                            Ir arriba<i class='bx bxs-chevrons-up ms-1'></i>
+                          </span>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="col-sm-6 col-lg-4 text-decoration-none project obn desa">
+                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+                    <img class="card-img-top" src="./assets/img/newmaterial/moliw.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title regular-400 text-dark">Local Los Sauces</h5>
+                        <p class="card-text light-300 text-dark">
+                            Imponente local comercial en esquina.
+                            <br>
+                            <br> 
+                            <br>
+                        </p>
+                        <span class="text-decoration-none text-info light-300">
+                            Ir arriba<i class='bx bxs-chevrons-up ms-1'></i>
+                          </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="row">
+            <div class="btn-toolbar justify-content-center pb-4" role="toolbar" aria-label="Toolbar with button groups">
+                <div class="btn-group me-2" role="group" aria-label="Second group">
+                    <button type="button" class="btn btn-light">1</button>
+                </div>
+                <div class="btn-group me-2" role="group" aria-label="Second group">
+                    <a href="work2.html"><button type="button" class="btn btn-info text-white">2</button></a>
+                </div>
+                <div class="btn-group" role="group" aria-label="Third group">
+                    <a href="work2.html"><button type="button" class="btn btn-info text-white">Sig.</button></a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- End Our Work -->
+
+    <!-- Start Feature Work -->
+    <section class="container bg-light py-5">
+        <div class=" feature-work  my-4">
+            <div class="row d-flex d-flex align-items-center">
+                <div class="col-lg-5">
+                    <h3 class="feature-work-title h4 text-muted light-300">Trabajos Destacados</h3>
+                    <h1 class="feature-work-heading h2 py-3 semi-bold-600">Robles Casas & Campos</h1>
+                    <p class="feature-work-body text-muted light-300">
+                        Este chalet proyectado por Antón Guiterrez y Urquijo fue construído en 1930 como residencia veraniega del nieto del fundador de la ciudad.
+                         En el año 2018 comenzaron los trabajos de restauración y puesta en valor, adecuando el chalet a las nuevas necesidades de uso y potenciando su importancia como bien patrimonial de la ciudad.
+                    </p>
+                    <p class="feature-work-footer text-muted light-300">Se trabajó respetando los elementos y materiales característicos del estilo. El potente muro perimetral se modificó sin sacrificar su presencia, para acercar más la vivienda al entorno.
+                         Se generaron caminos y empalizadas amables para tamizar lo público de lo privado.
+                         En el interior se buscaron nuevas vinculaciones espaciales a través de vanos estratégicamente ubicados que interconectan toda la vivienda, hoy refuncionalizada como inmobiliaria.</p>
+                </div>
+                <div class="col-lg-6 offset-lg-1 align-left">
+                    <div class="row">
+                        <a class="col" data-type="image" data-fslightbox="gallery" href="./assets/img/newmaterial/mosrob4L.jpg">
+                            <img class="img-fluid" src="./assets/img/newmaterial/mosrob4S.jpg">
+                        </a>
+                        <a class="col" data-type="image" data-fslightbox="gallery" href="./assets/img/newmaterial/mosrob2L.jpg">
+                            <img class="img-fluid" src="./assets/img/newmaterial/mosrob2S.jpg">
+                        </a>
+                    </div>
+                    <div class="row pt-4">
+                        <a class="col" data-type="image" data-fslightbox="gallery" href="./assets/img/newmaterial/mosrob3L.jpg">
+                            <img class="img-fluid" src="./assets/img/newmaterial/mosrob3S.jpg">
+                        </a>
+                        <a class="col" data-type="image" data-fslightbox="gallery" href="./assets/img/newmaterial/mosrobL.jpg">
+                            <img class="img-fluid" src="./assets/img/newmaterial/mosrobS.jpg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Feature Work -->
+
+
+   <!-- Start Footer -->
+   <footer class="bg-info pt-4">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-3 col-12 align-items-center">
+                <a class="navbar-brand " href="index.html">
+                    <br><p class="d-flex justify-content-center"><img src ="assets/img/newmaterial/Logoblanco.png" style="height: 30px; width: auto;"></p>
+                    <span class="d-flex justify-content-center text-light peqlo">CALVIÑO & LADANAJ</span><span class="text-light fst-italic d-flex justify-content-center peqloa">- arquitectos -</span>
+                </a>
+                
+            </div>
+
+            <div class="col-lg-3 col-md-4 my-sm-0 ">
+                    <h3 class="h4 pb-lg-2 text-light light-300">Contenido</h2>
+                    <ul class="list-unstyled text-light light-300">
+                        <li class="pb-1">
+                            <i class='bx-fw bx bx-label bx-xs'></i><a class="text-decoration-none text-light" 
+                            href="index.html">Home</a>
+                        </li>
+                        <li class="pb-1">
+                            <i class='bx-fw bx bx-label bx-xs'></i><a class="text-decoration-none text-light py-1" 
+                            href="about.html">El Estudio</a>
+                        </li>
+                        <li class="pb-1">
+                            <i class='bx-fw bx bx-label bx-xs'></i><a class="text-decoration-none text-light py-1" 
+                            href="#.html">Portfolio</a>
+                        </li>
+                        <li class="pb-1">
+                            <i class='bx-fw bx bx-label bx-xs'></i></i><a class="text-decoration-none text-light py-1" 
+                            href="pricing.html">Honorarios</a>
+                        </li>
+                        <li class="pb-1">
+                            <i class='bx-fw bx bx-label bx-xs'></i><a class="text-decoration-none text-light py-1" 
+                            href="contact.html">Contáctenos</a>
+                        </li>
+                    </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-4 my-sm-0 ">
+                <h2 class="h4 pb-lg-2 text-light light-300">Nuestros Servicios</h2>
+                <ul class="list-unstyled text-light light-300">
+                    <li class="pb-1">
+                        <i class='bx-fw bx bx-label bx-xs'></i><a class="text-decoration-none text-light py-1" 
+                        href="#">Proyecto y Dirección</a>
+                    </li>
+                    <li class="pb-1">
+                        <i class='bx-fw bx bx-label bx-xs'></i><a class="text-decoration-none text-light py-1" 
+                        href="#">Desarrollos</a>
+                    </li>
+                    <li class="pb-1">
+                        <i class='bx-fw bx bx-label bx-xs'></i><a class="text-decoration-none text-light py-1" 
+                        href="#">Imágenes 3d</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-4 my-sm-0 ">
+                <h2 class="h4 pb-lg-2 text-light light-300">Encontranos en:</h2>
+                <ul class="list-unstyled text-light light-300">
+                    <li class="pb-1">
+                        <i class='bx-fw bx bx-phone bx-xs'></i><a class="text-decoration-none text-light py-1" 
+                        href="tel:010-020-0340">2235795724-2235795854</a>
+                    </li>
+                    <li class="pb-1">
+                        <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="text-decoration-none text-light py-1"
+                        href="mailto:info@company.com">calvino.ladanaj@gmail.com</a>
+                    </li>
+                    
+                </ul>
+
+                <p class="text-light my-0 py-0">
+                + seguinos en las redes sociales:
+                </p>
+                <ul class="list-inline footer-icons light-300">
+                    <li class="list-inline-item m-0">
+                        <a class="text-light" target="_blank" href="https://www.facebook.com/CalvinoLadanaj">
+                            <i class='bx bxl-facebook-square bx-md'></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item m-0">
+                        <a class="text-light" target="_blank" href="https://www.instagram.com/calvinoladanajarq/">
+                            <i class='bx bxl-instagram-alt bx-md'></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item m-0">
+                        <a class="text-light" target="_blank" href="https://wa.me/542235795724?text=Hola,%20deseo%20contactarlos%20por%20un%20trabajo.%20Gracias">
+                            <i class='bx bxl-whatsapp bx-md'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="w-100 bg-light py-3">
+        <div class="container">
+            <div class="row pt-2">
+                <div class="col-lg-6 col-sm-12">
+                    <p class="text-lg-start text-center text-dark light-300">
+                        © Copyright 2021 Calviño & Ladanaj arquitectos. Todos los derechos reservados.
+                    </p>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <p class="text-lg-end text-center text-dark light-300">
+                        Diseñado por <a rel="sponsored" class="text-decoration-none text-muted" 
+                        href="https://cursophp.com.ar/" target="_blank"><strong>CAC FullStack, en colaboración con Francisco José Calviño #2104</strong></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+    <!-- End Footer -->
+
+
+
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Lightbox -->
+    <script src="assets/js/fslightbox.js"></script>
+    <script>
+        fsLightboxInstances['gallery'].props.loadOnlyCurrentSource = true;
+    </script>
+    <!-- Load jQuery require for isotope -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Isotope -->
+    <script src="assets/js/isotope.pkgd.js"></script>
+    <!-- Page Script -->
+    <script>
+        $(window).load(function() {
+            // init Isotope
+            var $projects = $('.projects').isotope({
+                itemSelector: '.project',
+                layoutMode: 'fitRows'
+            });
+            $(".filter-btn").click(function() {
+                var data_filter = $(this).attr("data-filter");
+                $projects.isotope({
+                    filter: data_filter
+                });
+                $(".filter-btn").removeClass("active");
+                $(".filter-btn").removeClass("shadow");
+                $(this).addClass("active");
+                $(this).addClass("shadow");
+                return false;
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
