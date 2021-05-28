@@ -14,7 +14,7 @@
 
 html {font-family: 'Ubuntu', sans-serif;}
 body {font-family: 'Ubuntu', sans-serif;
-      background-image: url('/assets/img/newmaterial/fondonodos2.jpg');
+      background-image: url('./../img/newmaterial/fondonodos2.jpg');
       background-size: 100%;
     }
 /* Typography */
