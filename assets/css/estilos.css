@@ -93,12 +93,12 @@ p, a {font-weight: 500;}
   max-width: 720px;
 }
 .service-work.card {
-  border-radius: 10px !important;
+  border-radius: 5px !important;
   cursor: pointer;
 }
 .service-work .service-work-vertical {
 	background: rgb(0,0,0);
-  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 33.33%, rgba(255,255,255,1) 66.66%, rgba(255,255,255,0) 99.99%);
+  background: linear-gradient(45deg, rgb(27, 27, 27) 3%, rgba(0,0,0,0) 10.33%, rgb(255, 254, 254) 70.66%, rgba(255,255,255,0) 99.99%);
   background-size: 300% 300%;
   background-position: 0% 100%;
   transition: .5s;
